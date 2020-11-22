@@ -1,0 +1,97 @@
+html, body {
+    max-height: 100vh;
+    overflow: hidden;
+}
+
+#body-dark {
+    background: darkslategrey;
+}
+
+#body-light {
+    background: white;
+}
+
+#solid-blue-triangle {
+    opacity: 100%;
+    position: absolute;
+    width: 7vh;
+    height: 7vh;
+    left: 15vw;
+    top: 75vh;
+    z-index: 2;
+
+    background: #45BFB5;
+    box-sizing: border-box;
+    border-radius: 5px;
+    transform: rotate(-26.97deg);
+}
+
+#left-circle {
+    opacity: 100%;
+    position: absolute;
+    width: 120vh;
+    left: -25vw;
+    height: 120vh;
+    top: 50vh;
+
+    background: #c7f0ec;
+    border-radius: 50%;
+}
+
+ #solid-pink-triangle {
+    position: absolute;
+    width: 8vh;
+    height: 8vh;
+    left:  24vw;
+    top: 26vh;
+
+    background: #FABEC0;
+    border-radius: 5px;
+    transform: rotate(18.12deg);
+ }
+
+ #right-circle {
+    opacity: 100%;
+    position: absolute;
+    width: 70vh;
+    height: 70vh;
+    right: -15vw;
+    top: -18vh;
+    border-radius: 50%;
+    background:#c7f0ec;
+    z-index: -50;
+ }
+
+ #hollow-pink-triangle {
+    position: absolute;
+    width: 11vh;
+    height: 11vh;
+    left: 70vw;
+    top: 65vh;
+
+    border: 1vh solid #FABEC0;
+    box-sizing: border-box;
+    border-radius: 10px;
+    transform: rotate(-17.37deg);
+
+ }
+  /*
+ @media (max-width: 1000px) {
+
+    #solid-blue-triangle {
+        top: 135vh;
+    }
+
+    #solid-pink-triangle {
+    top: 45vh;
+    }
+
+    #hollow-pink-triangle {
+    left: 125vw;
+    }
+
+    #left-circle {
+        top: 100vh;
+        left: -70vw;
+    }
+     */
