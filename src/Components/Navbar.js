@@ -1,8 +1,8 @@
 import '../main.css';
+import './Navbar.css';
 
 const Navbar = () => {
   return (
-    <div className="App">
 
       <nav class="z-10 flex items-center justify-between flex-wrap bg-white-500 p-4">
 
@@ -40,7 +40,7 @@ const Navbar = () => {
           </div>
 
           <div>
-            <a href="#" class="z-50 inline-block text-md px-4 py-2 leading-none rounded-3xl text-teal-600 
+            <a id = "darkmode-button" href="#" class="z-50 inline-block text-md px-4 py-2 leading-none rounded-3xl text-teal-600 
             -600 hover:border-transparent hover:text-teal-400 bg-white mt-4 lg:mt-0 mr-3">
               Dark Mode
               </a>
@@ -48,7 +48,6 @@ const Navbar = () => {
 
         </div>
     </nav>
-    </div>
   );
 }
 
