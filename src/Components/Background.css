@@ -59,7 +59,7 @@ html, body {
     top: -18vh;
     border-radius: 50%;
     background:#c7f0ec;
-    z-index: -50;
+    z-index: 0;
  }
 
  #hollow-pink-triangle {
